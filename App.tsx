@@ -4,6 +4,7 @@ import React from 'react';
 import Main from './src';
 import RecentInput from './src/components/Game/Recent/RecentInput';
 import Topbar from './src/components/Topbar';
+import Recent from './src/components/Game/Recent/Recent';
 
 const Stack = createNativeStackNavigator();
 
@@ -24,6 +25,7 @@ export default function App() {
       >
         <Stack.Screen name="Main" component={Main} />
         <Stack.Screen name="RecentInput" component={RecentInput} />
+        <Stack.Screen name="Recent" component={Recent} />
       </Stack.Navigator>
     </NavigationContainer>
   );
