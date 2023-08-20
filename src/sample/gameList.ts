@@ -13,10 +13,4 @@ export const gameList: Game[] = [
     icon: 'karate',
     screenName: 'YouWannaGo',
   },
-  {
-    title: 'Game C',
-    description: '생각 중',
-    icon: '',
-    screenName: '',
-  },
 ];

@@ -1,5 +1,4 @@
 import React from 'react';
-import Topbar from './components/Topbar';
 import MenuList from './components/GameList';
 import { gameList } from './sample/gameList';
 
@@ -13,7 +12,7 @@ import { gameList } from './sample/gameList';
 export default function Main() {
   return (
     <>
-      <MenuList title={'Game List'} gameList={gameList} />
+      <MenuList title={'게임 목록'} gameList={gameList} />
     </>
   );
 }
